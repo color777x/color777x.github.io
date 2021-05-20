@@ -1,0 +1,29 @@
+Successfully installed faraday-excon-1.1.0
+Successfully installed faraday-net_http-1.0.1
+Successfully installed faraday-net_http_persistent-1.1.0
+Successfully installed multipart-post-2.1.1
+Successfully installed ruby2_keywords-0.0.4
+Successfully installed faraday-1.4.1
+Successfully installed sawyer-0.8.2
+Successfully installed octokit-4.21.0
+Successfully installed jekyll-gist-1.5.0
+Parsing documentation for faraday-excon-1.1.0
+Installing ri documentation for faraday-excon-1.1.0
+Parsing documentation for faraday-net_http-1.0.1
+Installing ri documentation for faraday-net_http-1.0.1
+Parsing documentation for faraday-net_http_persistent-1.1.0
+Installing ri documentation for faraday-net_http_persistent-1.1.0
+Parsing documentation for multipart-post-2.1.1
+Installing ri documentation for multipart-post-2.1.1
+Parsing documentation for ruby2_keywords-0.0.4
+Installing ri documentation for ruby2_keywords-0.0.4
+Parsing documentation for faraday-1.4.1
+Installing ri documentation for faraday-1.4.1
+Parsing documentation for sawyer-0.8.2
+Installing ri documentation for sawyer-0.8.2
+Parsing documentation for octokit-4.21.0
+Installing ri documentation for octokit-4.21.0
+Parsing documentation for jekyll-gist-1.5.0
+Installing ri documentation for jekyll-gist-1.5.0
+Done installing documentation for faraday-excon, faraday-net_http, faraday-net_http_persistent, multipart-post, ruby2_keywords, faraday, sawyer, octokit, jekyll-gist after 5 seconds
+9 gems installed
