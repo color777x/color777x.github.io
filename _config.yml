@@ -20,7 +20,7 @@ title                    : "늦은 시작, 천천히"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "color777x"
-description              : "늦은 나이에 다시 개발을 시작했습니다. AI, Data 어렵지만 재미있어요."
+description              : "급할 것 없어. 한 걸음씩 가자."
 url                      : "https://color777x.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "color777x"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "늦은 나이에 다시 시작한 개발입니다. 그러나 즐겁습니다."
+  bio              : "급할 것 없어. 한 걸음씩 가자."
   location         : "Somewhere"
   email            :
   links:
