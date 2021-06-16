@@ -11,11 +11,11 @@ tags:
 
 
 
-​        두 그룹의 데이터가 얼마나 유사한지에 대해서 알아보기 위해서 여러 가지 방법들이 있다. 보통 유사도 측정(Similarity Measure)이라고 한다. 이를 활용하면 문서내에 포함된 단어들을 벡터화하여 유사도를 측정하거나 영화 추천 평점 데이터를 기반으로 유사도를 측정하는 등 다양하게 활용된다.
+​            두 그룹 데이터의 유사도를 측정(Similarity Measure)하는 방법에는 여러 가지가 있다. 유클리디안 거리(Euclidean Distance), 맨하튼 거리(Manhattan Distance), 민코프스키 거리(Minkowski Distance), 코사인 거리(Cosin Distance), 코사인 유사도(Cosin Similarity), 상관관계 등이 사용된다. 
 
-유사도 측정 방법에는 여러 가지가 있다. 유클리디안 거리(Euclidean Distance), 맨하튼 거리(Manhattan Distance), 민코프스키 거리(Minkowski Distance), 코사인 유사도(Cosin Similarity), 혹은 상관관계로도 측정하기도 한다. 
+유사도 측정은 문서내에 포함된 단어들을 벡터화하여 비교하거나 영화 추천 평점 데이터를 기반으로 비교하는 등 다양하게 활용된다.
 
-나중에 알게되었만 Cosine similarity와 Cosine Distance는 다르다. Distance는 '1-similarity'다. 이것은 나중에 알아보도록 하고 오늘은 코사인 유사도(Cosine Similarity)를 콘텐츠 추천 데이터 기반으로 알아보겠다. 
+오늘은 코사인 유사도(Cosine Similarity)를 콘텐츠 추천 데이터 기반으로 알아보겠다. 
 
 ## Collaborative Filtering
 
