@@ -13,7 +13,7 @@ tags:
 
 ​            두 그룹 데이터의 유사도를 측정(Similarity Measure)하는 방법에는 여러 가지가 있다. 유클리디안 거리(Euclidean Distance), 맨하튼 거리(Manhattan Distance), 민코프스키 거리(Minkowski Distance), 코사인 거리(Cosin Distance), 코사인 유사도(Cosin Similarity), 상관관계 등이 사용된다. 
 
-유사도 측정은 문서내에 포함된 단어들을 벡터화하여 비교하거나 영화 추천 평점 데이터를 기반으로 비교하는 등 다양하게 활용된다.
+유사도 측정은 문서 내에 포함된 단어들을 벡터화하여 비교하거나 영화 추천 평점 데이터를 기반으로 비교하는 등 다양하게 활용된다.
 
 오늘은 코사인 유사도(Cosine Similarity)를 콘텐츠 추천 데이터 기반으로 알아보겠다. 
 
