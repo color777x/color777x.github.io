@@ -15,9 +15,7 @@ tags:
 
 유사도 측정 방법에는 여러 가지가 있다. 유클리디안 거리(Euclidean Distance), 맨하튼 거리(Manhattan Distance), 민코프스키 거리(Minkowski Distance), 코사인 유사도(Cosin Similarity), 혹은 상관관계로도 측정하기도 한다. 
 
-나중에 알게되었만 Cosine similarity와 Cosine Distance는 다르다. Distance는 '1-similarity'다. 이것은 나중에 알아보도록 하고 여기서는 similarity를 중심으로 알아본다.
-
-오늘은 코사인 유사도(Cosine Similarity)를 콘텐츠 추천 데이터 기반으로 알아보겠다. 
+나중에 알게되었만 Cosine similarity와 Cosine Distance는 다르다. Distance는 '1-similarity'다. 이것은 나중에 알아보도록 하고 오늘은 코사인 유사도(Cosine Similarity)를 콘텐츠 추천 데이터 기반으로 알아보겠다. 
 
 ## Collaborative Filtering
 
