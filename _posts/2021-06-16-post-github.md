@@ -7,10 +7,6 @@ tags:
   - Git
 ---
 
-  - git
-
-
-
 * git init : git 생성하기
 * git clone git_path : 코드가져오기
 * git checkout branch_name : 브랜치 선택하기
@@ -24,6 +20,7 @@ tags:
 * git add file_path : 수정한 코드 선택하기 ( git add * )
 * git commit -m “commit_description” : 선택한 코드 설명 적기 ( git commit -m “내용”)
 * git push romote_name branch_name : add하고 commit한 코드 git server에 보내기 (git push origin master)
+* git push -u origin +master: 에러 상관없이 강제로 push하기
 * git pull : git서버에서 최신 코드 받아와 merge 하기
 * git fetch : git서버에서 최신 코드 받아오기
 * git reset — hard HEAD^ : commit한 이전 코드 취소하기
