@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko"
-title                    : "늦은 시작, 즐기다."
+title                    : "늦은 시작, 천천히"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "color777x"
@@ -280,3 +280,10 @@ defaults:
       comments: true
       share: true
       related: true
+# _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
