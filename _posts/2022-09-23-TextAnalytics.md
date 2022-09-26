@@ -1,5 +1,5 @@
 ---
-title: "[Toy Project]자연어 분석을 통한 유아 언어 발달 현황 분석"
+title: "[Toy Project 2] 자연어 분석을 통한 유아 언어 발달 현황 분석"
 header:
 categories:
   - Toy Project

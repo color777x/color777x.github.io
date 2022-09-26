@@ -1,5 +1,5 @@
 ---
-title: "Toy Project #1. 추천 엔진"
+title: "[Toy Project 1] 추천 엔진"
 header:
 categories:
   - Toy Project
@@ -20,12 +20,12 @@ tags:
   * Centos7.3
   * Python3.8
   * maria db
-  
+
 * Python 라이브러리
   *  python==3.8.5
   *  pandas==1.2.1
   *  pymysql==1.0.2
-  
+
 * 개발 로직
   1. maria db 접속
 
@@ -41,7 +41,7 @@ tags:
                                 user='DB 사용자 계정',
                                 passwd='DB 비번',
                                 db='DB 이름')
-     
+
      # 일반 접속
      conn = pymysql.connect(host='DB 서버 주소', port=포트, user='DB 사용자 계정', password='dB 비번', db='DB 이름', charset='utf8')
      ~~~
@@ -54,10 +54,10 @@ tags:
      sql = "SELECT * FROM CONTENT_EVALUATION_INFO"
      cursor.execute(sql)
      resultList = cursor.fetchall()
-     
+
      # 전처리를 위한 DataFrame으로 변환
      resultList = pd.DataFrame(resultList)
-     
+
      # 평가한 전체 콘텐츠 가져오기 - 중복 콘텐츠 ID 제거
      condata = resultList.drop_duplicates("CONTENT_EVALUATION_CONTENT_ID")
      condata = condata["CONTENT_EVALUATION_CONTENT_ID"]
@@ -107,17 +107,17 @@ tags:
          for j in range(1, 11):
              now = datetime.now()
              formatted_date = now.strftime('%Y-%m-%d %H:%M:%S')
-     
+
              #콘텐츠 CD가져오기 위해서
              condata_id = condata2.query('CONTENT_EVALUATION_CONTENT_ID == "' + condata[i] + '"')
              condata_cd = condata_id['CONTENT_EVALUATION_CONTENT_CD'].values
              condata_cd = condata_cd[0]
-     
+
              # 유사도 순서에 따라 정렬하여 1을 제외하고 젤 위에서부터 가져오기
              recommend = con_sim_df[condata[i]].sort_values(ascending=False).index[j]
              percentage = con_sim_df[condata[i]].sort_values(ascending=False)[j]
              percentage = percentage * 100
-     
+
              insert_sql2 = "INSERT INTO RM_CONTENTS_DTL_INFO (RM_CONTENTS_ID, RM_RECOMMEND_CONTENTS_ID, RM_CONTENTS_CD, SQ_NUM, PERCENTAGE, UPDATE_DT) VALUES (%s, %s, %s, %s, %s, %s)"
              val2 = [
                  (condata[i]),
@@ -128,7 +128,7 @@ tags:
                  (formatted_date)
              ]
              cursor.execute(insert_sql2, val2)
-     
+
      conn.commit()
      # tunnel.close() --SSH로 접속했을 경우
      ~~~
@@ -138,10 +138,10 @@ tags:
      ~~~
      # crontab 리스트 확인
      > crontab -l
-     
+
      # crontab 편집 명령어 실행
      > crontab -e
-     
+
      # * 자리 왼쪽부터 분, 시간, 일자, 월, 요일 
      # 첫번째 경로는 anaconda 가상환경 python 실행 경로, 두번 째는 실행 파일 경로, 세번 째는 로그 파일 저장 경로
      * */1 * * * /home/shin/anaconda3/envs/python_anal/bin/python3 /home/shin/python_anal/IBCF.py >> /home/shin/python_anal/cron.log
@@ -149,7 +149,6 @@ tags:
 
   7. 프로젝트 종료
 
-  
 
 * 프로젝트 후기
 
@@ -159,7 +158,6 @@ tags:
 
   그래서인지 내가 만든 추천 엔진이 좋은 것인지도 사실 잘 모른다. 여러 자료를 찾아보고 유투브 강의를 들으면서 응용한 프로젝트이다. 그래서 Toy Project를 진행하면서 알게된 알고리즘도 함께 다룰 예정이다.
 
-  
 
   어쨌든 추천 서비스는 최근 몇 년 사이 교육 시장에서도 다시 관심을 받고 회자되고 있어서 첫 프로젝트로 선정해보았다. 서비스 적용하기에 프로젝트 규모가 만만해보였을 수도 있다.
 
