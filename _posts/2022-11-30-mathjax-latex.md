@@ -48,7 +48,7 @@ $$
 * 분수
 
 ```latex
-$\frac(3}{5})$
+$\frac{3}{5})$
 ```
 
 $$
@@ -78,7 +78,7 @@ $$
 * 루트
 
 ```latex
-$ \sqrt{2} $
+$\sqrt{2}$
 ```
 
 $$
@@ -103,4 +103,93 @@ $$
 n! = \prod_{k=1}^n k
 $$
 
-우선 여기까지... 나머지는 다음에 또 정리
+* 합집합 교집합 차집합
+
+```latex
+${A} \cup {B}$, ${A} \cap {B}$, ${A} \in {B}$
+```
+
+$$
+{A} \cup {B} , {A} \cap {B}, {A} \in {B}
+$$
+
+* 사각함수
+
+```latex
+$sin\theta = \frac{y}{r}$
+```
+
+$$
+sin\theta = \frac{y}{r}
+$$
+
+* 파이
+
+```latex
+$\pi$, $\Pi$, $\phi$
+```
+
+$$
+\pi, \Pi, \phi
+$$
+
+* 각도
+
+```latex
+$90^\circ$
+```
+
+$$
+90^\circ
+$$
+
+* 극한
+
+```latex
+$\lim_{x \to \infty} \exp(-x) = 0$
+```
+
+$$
+\lim_{x \to \infty} \exp(-x) = 0
+$$
+
+```latex
+$\frac{df(x)}{dx} = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$
+```
+
+$$
+\frac{df(x)}{dx} = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}
+$$
+
+* 시그마
+
+```latex
+$$\sum_{i=1}^{10} t_i$$  
+
+$$\displaystyle\sum_{i=1}^{10} t_i$$
+```
+
+$$
+\sum_{i=1}^{10} t_i \\
+
+\displaystyle \sum_{i=1}^{10} t_i
+$$
+
+$$
+MSE = \frac{1}{N}\sum_{i=1}^{N}(y_1 -   \hat{y})^2
+$$
+
+* log
+
+```latex
+$CE = -\sum_{i}^{C}t_i \log(f(s)_i)$
+```
+
+
+$$
+CE = -\sum_{i}^{C}t_i \log(f(s)_i)
+$$
+
+
+
+
