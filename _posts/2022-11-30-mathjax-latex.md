@@ -165,14 +165,10 @@ $$
 
 ```latex
 $$\sum_{i=1}^{10} t_i$$  
-
-$$\displaystyle\sum_{i=1}^{10} t_i$$
 ```
 
 $$
 \sum_{i=1}^{10} t_i \\
-
-\displaystyle \sum_{i=1}^{10} t_i
 $$
 
 $$
@@ -189,6 +185,67 @@ $CE = -\sum_{i}^{C}t_i \log(f(s)_i)$
 $$
 CE = -\sum_{i}^{C}t_i \log(f(s)_i)
 $$
+
+* 미분
+
+```latex
+$\dv{Q}{t} = \dv{s}{t}$
+```
+
+$$
+\dv{Q}{t} = \dv{s}{t}
+$$
+
+* 적분
+
+```latex
+$$\int_0^\infty \mathrm{e}^{-x}\,\mathrm{d}x$$
+
+$$\int\limits_a^b$$
+
+$$ (f*g)(t) = \int_{-\infty}^{\infty }f(τ)g(t-τ)dτ $$
+```
+
+$$
+\int_0^\infty \mathrm{e}^{-x}\,\mathrm{d}x, \int\limits_a^b \\
+
+(f*g)(t) = \int_{-\infty}^{\infty }f(τ)g(t-τ)dτ
+$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
