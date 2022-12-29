@@ -17,6 +17,10 @@
     {% include mathjax_support.html %}
     {% endif %}
 
+    <script src="/assets/js/vendor/jquery/jquery-3.5.1.js"></script>
+    <script src="/assets/js/plugins/jquery.magnific-popup.js"></script>
+    <script src="/assets/js/magnific-popup-setting.js"></script>
+
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">

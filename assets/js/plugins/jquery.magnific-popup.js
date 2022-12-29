@@ -53,7 +53,6 @@
     _wrapClasses,
     _currPopupType;
 
-
   /**
    * Private functions
    */
