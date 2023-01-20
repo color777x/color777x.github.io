@@ -13,7 +13,7 @@ use_math: true
 
 # Convolution Neural Networks 합성신경망
 
-  Convolution Neural Networks(합성신경망, 이하 CNN)에 대해서 어떻게 정리할까 고민하다가 알고리즘이 나온 배경이나 역사는 생략하고 본론부터 정리하기로 했다. 요약하자만 1950년대부터 시작된 David Hubel과 Torsten Wiesel의 [연구 논문](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1359523/pdf/jphysiol01247-0121.pdf)(고양이의 시각 피질 실험)으로부터 영향을 받은 Kunihiko Fukushima, Yann Lecon 박사 등을 시작으로 기존의 신경망 접근이 아닌 CNN 방식의 LeNet-5, AlexNet, ZFNet 등으로 발전되어왔다. 
+  Convolution Neural Networks(합성신경망, 이하 CNN)에 대해서 어떻게 정리할까 고민하다가 알고리즘이 나온 배경이나 역사는 생략하고 본론부터 정리하기로 했다. 요약하자면 1950년대부터 시작된 David Hubel과 Torsten Wiesel의 [연구 논문](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1359523/pdf/jphysiol01247-0121.pdf)(고양이의 시각 피질 실험)으로부터 영향을 받은 Kunihiko Fukushima, Yann Lecon 박사 등을 시작으로 기존의 신경망 접근이 아닌 CNN 방식의 LeNet-5, AlexNet, ZFNet 등으로 발전되어왔다. 
 
   Fully-connected multi-layered neural network를 **이미지 기반의 데이터**에 사용했을 때 학습 시간, 과적합 등의 문제가 발생하기 때문에 기존의 신경망 대신 CNN알고리즘에 주목하게 되었다. 이제 본격적으로 CNN에 대해서 정리해보겠다.
 
